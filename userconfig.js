@@ -74,6 +74,13 @@ const default_config = {
               icon: "brand-github",
               icon_color: palette.peach,
             },
+            {
+              name: "mynixos",
+              url: "https://mynixos.com",
+              icon: "snowflake",
+              icon_color: palette.red,
+            },
+
           ],
         },
         {
