@@ -12,26 +12,26 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://app.raindrop.io",
+  fastlink: "app.element.io",
   openLastVisitedTab: false,
   tabs: [
     {
       name: "myself",
-      background_url: "src/img/banners/cbg-09.gif",
+      background_url: "src/img/banners/cbg-15.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "element",
+              url: "https://app.element.io",
+              icon: "device-landline-phone",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "music;",
+              url: "https://open.spotify.com",
+              icon: "music",
               icon_color: palette.peach,
             },
           ],
@@ -40,9 +40,9 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "mail",
+              url: "https://email.ionos.de/appsuite/",
+              icon: "mail",
               icon_color: palette.green,
             },
             {
@@ -52,16 +52,10 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "ebook",
+              url: "https://schueler.klett.de/arbeitsplatz#/",
+              icon: "book",
               icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
             },
           ],
         },
