@@ -26,10 +26,10 @@ const default_config = {
               name: "element",
               url: "https://app.element.io",
               icon: "device-landline-phone",
-              icon_color: palette.lavender,
+              icon_color: palette.green,
             },
             {
-              name: "music;",
+              name: "music",
               url: "https://open.spotify.com",
               icon: "music",
               icon_color: palette.peach,
@@ -43,7 +43,7 @@ const default_config = {
               name: "mail",
               url: "https://email.ionos.de/appsuite/",
               icon: "mail",
-              icon_color: palette.lavender,
+              icon_color: palette.green,
             },
             {
               name: "calendar",
@@ -72,31 +72,13 @@ const default_config = {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.lavender,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
               icon_color: palette.peach,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
             },
           ],
         },
         {
           name: "challenges",
           links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
-              icon_color: palette.lavender,
-            },
             {
               name: "leetcode",
               url: "https://leetcode.com",
@@ -113,7 +95,7 @@ const default_config = {
               name: "aoc",
               url: "https://adventofcode.com",
               icon: "brand-linktree",
-              icon_color: palette.blue,
+              icon_color: palette.orange,
             },
           ],
         },
@@ -121,28 +103,22 @@ const default_config = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.lavender,
+              name: "openscad",
+              url: "https://openscad.org/documentation.html",
+              icon: "sphere",
+              icon_color: palette.peach,
             },
             {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
               icon_color: palette.red,
             },
             {
               name: "netflix tech blog",
               url: "https://netflixtechblog.com",
               icon: "brand-netflix",
-              icon_color: palette.blue,
+              icon_color: palette.orange,
             },
           ],
         },
@@ -153,36 +129,13 @@ const default_config = {
       background_url: "src/img/banners/cbg-08.gif",
       categories: [
         {
-          name: "social media",
-          links: [
-            {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.lavender,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
-              icon_color: palette.red,
-            },
-          ],
-        },
-        {
           name: "gaming",
           links: [
             {
               name: "IGN",
               url: "https://www.ign.com/account/playlist/library",
               icon: "device-gamepad",
-              icon_color: palette.lavender,
+              icon_color: palette.red,
             },
             {
               name: "steam",
@@ -191,45 +144,28 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
+              name: "steamdb",
+              url: "https://steamdb.info/",
+              icon: "stack-2",
+              icon_color: palette.orange,
             },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
+
           ],
         },
         {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
+              name: "anisearch",
+              url: "https://www.anisearch.de/usercp/favorites",
               icon: "brand-funimation",
-              icon_color: palette.lavender,
+              icon_color: palette.red,
             },
             {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
