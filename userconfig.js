@@ -26,7 +26,7 @@ const default_config = {
               name: "element",
               url: "https://app.element.io",
               icon: "device-landline-phone",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "music;",
@@ -43,7 +43,7 @@ const default_config = {
               name: "mail",
               url: "https://email.ionos.de/appsuite/",
               icon: "mail",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "calendar",
@@ -72,7 +72,7 @@ const default_config = {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "neptune",
@@ -95,7 +95,7 @@ const default_config = {
               name: "kaggle",
               url: "https://www.kaggle.com",
               icon: "brain",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "leetcode",
@@ -124,7 +124,7 @@ const default_config = {
               name: "dou",
               url: "https://dou.ua",
               icon: "brand-prisma",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "hackernews",
@@ -159,7 +159,7 @@ const default_config = {
               name: "telegram",
               url: "https://web.telegram.org",
               icon: "brand-telegram",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "facebook",
@@ -182,7 +182,7 @@ const default_config = {
               name: "IGN",
               url: "https://www.ign.com/account/playlist/library",
               icon: "device-gamepad",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "steam",
@@ -211,7 +211,7 @@ const default_config = {
               name: "anilist",
               url: "https://anilist.co/home",
               icon: "brand-funimation",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "youtube",
@@ -242,4 +242,4 @@ const CONFIG = new Config(default_config, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
+root.style.setProperty("--accent", palette.lavender);
