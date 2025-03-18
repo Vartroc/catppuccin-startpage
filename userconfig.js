@@ -23,9 +23,9 @@ const default_config = {
           name: "bookmarks",
           links: [
             {
-              name: "element",
-              url: "https://app.element.io",
-              icon: "device-landline-phone",
+              name: "untis",
+              url: "https://tipo.webuntis.com/timetable/my-student",
+              icon: "school",
               icon_color: palette.green,
             },
             {
