@@ -86,16 +86,10 @@ const default_config = {
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
               name: "aoc",
               url: "https://adventofcode.com",
               icon: "brand-linktree",
-              icon_color: palette.mauve,
+              icon_color: palette.red,
             },
           ],
         },
@@ -132,22 +126,16 @@ const default_config = {
           name: "gaming",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.red,
-            },
-            {
               name: "steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
             {
               name: "steamdb",
               url: "https://steamdb.info/",
               icon: "stack-2",
-              icon_color: palette.mauve,
+              icon_color: palette.peach,
             },
 
           ],
